@@ -1,10 +1,11 @@
+ /* Write a method called printNumberInWord. The method has one parameter number which is the whole number. 
+    The method needs to print "ZERO", "ONE", "TWO", ... "NINE", "OTHER" if the int parameter number is 0, 1, 2, .... 9 
+    or other for any other number including negative numbers. You can use if-else statement or switch statement
+     */
+
 public class NumberInWord {
 
-   
-        
-    
-
-    public static void printNumberInWord(int number) {
+   public static void printNumberInWord(int number) {
         
         switch(number) {
             case 0:
@@ -42,12 +43,4 @@ public class NumberInWord {
                 break;
         }
         }
-    
-    
-    
-    
-    /* Write a method called printNumberInWord. The method has one parameter number which is the whole number. 
-    The method needs to print "ZERO", "ONE", "TWO", ... "NINE", "OTHER" if the int parameter number is 0, 1, 2, .... 9 
-    or other for any other number including negative numbers. You can use if-else statement or switch statement
-     */
 }
